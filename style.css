@@ -1,0 +1,65 @@
+body{
+    background-image: url(fondo.avif);
+    background-size: cover;
+    color: white;
+    text-align: justify;
+    border: 5%;
+}
+header{
+    text-align: center;
+}
+
+header img {
+    width: 30%;
+    align-items: center;
+}
+
+article h2{
+    text-align: center;
+}
+
+article {
+    margin-top: -8vh;
+}
+#mi_flex{
+    display: flex;
+    gap: 5%;
+    width: 100%;  
+    border: 20px;  
+}
+
+#mi_flex div {
+    background-color: rgba(71, 64, 64, 0.5);
+    border-radius: 9px;
+    padding: 20px;
+    width: 35%;
+    line-height: 1.5;
+    text-align: justify;
+}
+div h4 {
+    text-align: center;
+    margin-top: -2%;
+}
+
+#contenedorgordo{
+    border: solid grey;
+    padding: 5%;
+}
+
+#ejemplos {
+    text-align: center;
+}
+
+#texto{
+    display: flex;
+    justify-content: center;
+}
+
+#texto2{
+    width: 40%;
+    text-align: justify;
+}
+
+footer{
+    text-align: center;
+}
